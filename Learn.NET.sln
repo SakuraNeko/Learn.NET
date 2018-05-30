@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{4BB9BB5C-F7CC-4F45-8407-460BD3DB9FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandonCard", "RandonCard\RandonCard.csproj", "{9229AFFA-1A64-4E48-8DF1-148131175B0A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB9BB5C-F7CC-4F45-8407-460BD3DB9FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB9BB5C-F7CC-4F45-8407-460BD3DB9FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB9BB5C-F7CC-4F45-8407-460BD3DB9FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB9BB5C-F7CC-4F45-8407-460BD3DB9FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9229AFFA-1A64-4E48-8DF1-148131175B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9229AFFA-1A64-4E48-8DF1-148131175B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9229AFFA-1A64-4E48-8DF1-148131175B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9229AFFA-1A64-4E48-8DF1-148131175B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
